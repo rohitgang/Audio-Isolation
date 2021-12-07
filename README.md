@@ -16,3 +16,7 @@ So you can sing even if you are sitting in a coffee shop, go home and refine the
 This will be a deep learning model to which when an audio clip is fed in, it can identify the different type of sounds in the audio clip. So the audio clip goes from being one waveform to multiple waveforms each of which corresponds to a sound in the original audio clip.
 
 The deep learning model will be tasked with understanding the audio clip and then being able to make out different sounds in the clip. How?? Thinking of the input data to the model, it will be the audio clip ’s frequencies ? I have never dealt with audio clip, so no clue on this. 
+
+* Autoencoders are used to regenerate the input. In the hidden layers, can we do something which splits the audio (frequency?pitch?) and then recreates the input but with all the different audio waves?
+
+* If we apply PCA to the audio file (how?), and we take the first principal component, will we get the (freq?pitch?) of the sound which is most dominant in the audio clip?
