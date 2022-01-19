@@ -20,3 +20,7 @@ The deep learning model will be tasked with understanding the audio clip and the
 * Autoencoders are used to regenerate the input. In the hidden layers, can we do something which splits the audio (frequency?pitch?) and then recreates the input but with all the different audio waves?
 
 * If we apply PCA to the audio file (how?), and we take the first principal component, will we get the (freq?pitch?) of the sound which is most dominant in the audio clip?
+
+* What is the usefulness of Fourier Transformations? Do they provide a better interpretation of the audio clip?
+
+* 
